@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.background {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signupborder {
+
+    width: 540px;
+    height: 960px;
+    padding: 60px 70px;
+    border: 1px solid #AACDFF;  
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+
+}
+
+
+.wrapper {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.title {
+
+    font-family: Noto Sans CJK KR;
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068ff;
+}
+
+.mail {
+
+    height: 60px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding-left: 15px;
+
+}
+
+.name {
+    height: 60px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding-left: 15px;
+}
+
+.pw {
+
+    height: 60px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding-left: 15px;
+
+}
+
+.pwc {
+
+    height: 60px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding-left: 15px;
+
+}
+
+.phone {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.phone1 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+}
+
+.phone2 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+}
+
+.phone3 {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+}
+
+.checkNum {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.authNum {
+
+    color: #0068ff;
+    font-size: 18px;
+}
+
+.auth {
+    font-size: 16px;
+    color: #0068ff;
+    border: 1px solid #797979;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.completeNum {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.rest {
+
+    color: #0068ff;
+    font-size: 18px;
+}
+
+.complete {
+    font-size: 16px;
+    color: white;
+    border: 1px solid #0068ff;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    background-color: #0068ff;
+}
+
+
+.local {
+
+    height: 60px;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding-left: 15px;
+
+}

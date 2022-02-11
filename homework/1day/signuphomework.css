@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+}
+
+.signup {
+    width: 670px;
+    height: 960px;
+    left: 625px;
+    top: 60px;
+    position: absolute;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px
+        rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+}
+
+/* 여기부터는 미들 내용 */
+
+.top {
+    position: absolute;
+    top: 72px;
+    left: 100px;
+
+    width: 468px;
+    height: 94px;
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068FF;
+}
+
+.mailtxt {
+    position: absolute;
+    top: 226px;
+    left: 100px;
+
+    width: 158px;
+    height: 23.65px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #797979;
+}
+
+.mail {
+    position: absolute;
+    top: 306px;
+    left: 100px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 470px;
+
+}
+
+.nametxt {
+    position: absolute;
+    top: 327px;
+    left: 100px;
+
+    width: 158px;
+    height: 23.65px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #797979;
+}
+
+.name {
+    position: absolute;
+    top: 407px;
+    left: 100px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 470px;
+
+}
+
+.pstxt {
+    position: absolute;
+    top: 428px;
+    left: 100px;
+
+    width: 158px;
+    height: 23.65px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #797979;
+}
+
+.ps {
+    position: absolute;
+    top: 508px;
+    left: 100px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 470px;
+
+}
+
+.psctxt {
+    position: absolute;
+    top: 529px;
+    left: 100px;
+
+    width: 158px;
+    height: 23.65px;
+
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #797979;
+}
+
+.psc {
+    position: absolute;
+    top: 609px;
+    left: 100px;
+    border: none;
+    border-bottom: 1px solid #CFCFCF;
+    width: 470px;
+
+}
+
+.gender {
+    position: absolute;
+    top: 661px;
+    left: 265px;
+}
+
+.agree {
+    position: absolute;
+    top: 733px;
+    left: 112px;
+}
+/* 여기까지는 미들 내용 */
+
+.line {
+    margin: 0%;
+    position: absolute;
+    top: 784px;
+    left: 100px;
+    width: 468px;
+    border: 0px;
+    height: 1px;
+    background: #E6E6E6;
+}
+
+.btn {
+    position: absolute;
+    top: 815px;
+    left: 100px;
+    width: 468px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Noto Sans CJK KR;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #0068FF;
+}

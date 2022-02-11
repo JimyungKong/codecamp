@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* 여기가 윗부분 */
+
+.wrapper__top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top__header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.title {
+    color: #55b2d4;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.subtitle {
+    padding-left: 5px;
+    font-size: 8px;
+    font-family: Sci Fied Bitmap;
+}
+
+.line {
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.top__body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.musicBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.albumArt {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.musicTitle {
+    font-size: 11px;
+    color: #0f465e;
+}
+
+.musicArtist {
+    font-size: 10px;
+    color: gray;
+}
+
+/* 여기가 아래부분 */
+
+.wrapper__btm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btm__header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+thead {
+    background-color: #965252;
+    color: gray;
+    font-size: 10px;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+td {
+    font-size: 10px;
+}
+
+.ranking {
+    color: #0f465e;
+}
